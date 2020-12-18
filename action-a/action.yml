@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  MY_VAR:
+    description: "My var to greet ppl"
+    required: true
+    default: "LOL"
 
 runs:
   using: "docker"
@@ -14,4 +18,4 @@ runs:
 
 branding:
   icon: "mic"
-  color: "purple"
+  color: "red"
